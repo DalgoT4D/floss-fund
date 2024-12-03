@@ -1,1 +1,93 @@
-{}
+{
+  "version": "v1.0.0",
+  "entity": {
+    "type": "organisation",
+    "role": "owner",
+    "name": "Project Tech4Dev",
+    "email": "rohit@projecttech4dev.org",
+    "phone": "",
+    "description": "Project Tech4Dev Tech4Dev bridges the gap of limited tech resources by offering affordable open source tech platforms, senior tech talent, data governance tools and training, and community of practice.\n\nOur mission is to build and support the software, data, design companies, nonprofit partners, and foundations ecosystem, creating global social impact\n\n",
+    "webpageUrl": {
+      "url": "https://projecttech4dev.org",
+      "wellKnown": "https://projecttech4dev.org/.well-known/funding-manifest-urls"
+    }
+  },
+  "projects": [
+    {
+      "guid": "dalgo",
+      "name": "Dalgo",
+      "description": "Dalgo is an open-source data platform built to cater to the needs of the social sector.\n\nIt enables NGOs to harness the power of data by automating data consolidation, transformation, storage and visualization on a unified platform.\n\n",
+      "webpageUrl": {
+        "url": "https://dalgo.in",
+        "wellKnown": "https://dalgo.in/.well-known/funding-manifest-urls"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/DalgoT4D"
+      },
+      "licenses": ["GNU:AGPL-3.0"],
+      "tags": [
+        "data",
+        "data-platform",
+        "data-pipelines",
+        "data-visualization",
+        "information-management",
+        "non-profit"
+      ]
+    }
+  ],
+  "funding": {
+        "channels": [
+            {
+                "guid": "axisbank",
+                "type": "bank",
+                "address": "Kandivali E,Mumbai, MH 400101",
+                "description": "Will accept direct bank transfers. Please e-mail me for details."
+            }
+        ],
+        "plans": [
+            {
+                "guid": "hosting-monthly",
+                "status": "active",
+                "name": "Hosting support",
+                "description": "Dalgo uses AWS to host our backend server and data stores - EC2, RDS, EKS and more. This will cover the monthly AWS costs for Dalgo's staging and production infrastructure.",
+                "amount": 1000,
+                "currency": "USD",
+                "frequency": "monthly",
+                "channels": ["axisbank"]
+            },
+            {
+                "guid": "personnel-time",
+                "status": "active",
+                "name": "Personnel compensation",
+                "description": "This will cover the salaries of a senior developer and a senior data consultant working on Dalgo.",
+                "amount": 30000,
+                "currency": "USD",
+                "frequency": "yearly",
+                "channels": ["axisbank"]
+            },
+            {
+                "guid": "city-meetups",
+                "status": "active",
+                "name": "City Meetups",
+                "description": "Project Tech4Dev operates under a 100% WFH model. Despite this, we have found that in-person meetings are great for building trust as well as for brainstorming. We therefore choose to meet a few times a year, and often invite local NGOs to join us so we can showcase our latest features and learn of their challenges. This will cover 4 city meetups.",
+                "amount": 15000,
+                "currency": "USD",
+                "frequency": "yearly",
+                "channels": ["axisbank"]
+            },
+            {
+                "guid": "ngo-visits",
+                "status": "active",
+                "name": "NGO Visits",
+                "description": "NGO visits are necessary to understand their challenges and needs from close quarters and will help us build technology solutions which address their concerns. This will cover 6 NGO visits.",
+                "amount": 5000,
+                "currency": "USD",
+                "frequency": "yearly",
+                "channels": ["axisbank"]
+            }
+        ],
+        "history": [
+            {"year": 2023, "income": 0, "expenses": 0, "currency": "USD", "description": ""}
+        ]
+    }
+}
