@@ -87,7 +87,7 @@
             }
         ],
         "history": [
-            {"year": 2023, "income": 0, "expenses": 0, "currency": "USD", "description": ""}
+            {"year": 2023, "income": 26000, "expenses": 233000, "currency": "USD", "description": ""}
         ]
     }
 }
