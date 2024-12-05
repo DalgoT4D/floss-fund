@@ -53,7 +53,7 @@
                 "amount": 1100,
                 "currency": "USD",
                 "frequency": "monthly",
-                "channels": ["axisbank"]
+                "channels": ["rblbank"]
             },
             {
                 "guid": "personnel-time",
@@ -63,7 +63,7 @@
                 "amount": 62000,
                 "currency": "USD",
                 "frequency": "yearly",
-                "channels": ["axisbank"]
+                "channels": ["rblbank"]
             },
             {
                 "guid": "city-meetups",
@@ -73,7 +73,7 @@
                 "amount": 19000,
                 "currency": "USD",
                 "frequency": "yearly",
-                "channels": ["axisbank"]
+                "channels": ["rblbank"]
             },
             {
                 "guid": "ngo-visits",
@@ -83,7 +83,7 @@
                 "amount": 4400,
                 "currency": "USD",
                 "frequency": "yearly",
-                "channels": ["axisbank"]
+                "channels": ["rblbank"]
             }
         ],
         "history": [
