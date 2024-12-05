@@ -6,7 +6,7 @@
     "name": "Project Tech4Dev",
     "email": "rohit@projecttech4dev.org",
     "phone": "",
-    "description": "Project Tech4Dev Tech4Dev bridges the gap of limited tech resources by offering affordable open source tech platforms, senior tech talent, data governance tools and training, and community of practice.\n\nOur mission is to build and support the software, data, design companies, nonprofit partners, and foundations ecosystem, creating global social impact\n\n",
+    "description": "Project Tech4Dev bridges the gap of limited tech resources by offering affordable open source tech platforms, senior tech talent, data governance tools and training, and community of practice.\n\nOur mission is to build and support the software, data, design companies, nonprofit partners, and foundations ecosystem, creating global social impact\n\n",
     "webpageUrl": {
       "url": "https://projecttech4dev.org",
       "wellKnown": "https://projecttech4dev.org/.well-known/funding-manifest-urls"
@@ -38,10 +38,10 @@
   "funding": {
         "channels": [
             {
-                "guid": "axisbank",
+                "guid": "rblbank",
                 "type": "bank",
-                "address": "Kandivali E,Mumbai, MH 400101",
-                "description": "Will accept direct bank transfers. Please e-mail me for details."
+                "address": "Moledina Road, Pune, MH 411001",
+                "description": "Our legal entity is called OpenBrackets Foundation. Will accept direct bank transfers. Please e-mail me for details."
             }
         ],
         "plans": [
@@ -50,7 +50,7 @@
                 "status": "active",
                 "name": "Hosting support",
                 "description": "Dalgo uses AWS to host our backend server and data stores - EC2, RDS, EKS and more. This will cover the monthly AWS costs for Dalgo's staging and production infrastructure.",
-                "amount": 1000,
+                "amount": 1100,
                 "currency": "USD",
                 "frequency": "monthly",
                 "channels": ["axisbank"]
@@ -59,8 +59,8 @@
                 "guid": "personnel-time",
                 "status": "active",
                 "name": "Personnel compensation",
-                "description": "This will cover the salaries of a senior developer and a senior data consultant working on Dalgo.",
-                "amount": 30000,
+                "description": "This will cover the salaries of 2 junior and 3 mid-level developers and data engineers working on Dalgo.",
+                "amount": 62000,
                 "currency": "USD",
                 "frequency": "yearly",
                 "channels": ["axisbank"]
@@ -69,8 +69,8 @@
                 "guid": "city-meetups",
                 "status": "active",
                 "name": "City Meetups",
-                "description": "Project Tech4Dev operates under a 100% WFH model. Despite this, we have found that in-person meetings are great for building trust as well as for brainstorming. We therefore choose to meet a few times a year, and often invite local NGOs to join us so we can showcase our latest features and learn of their challenges. This will cover 4 city meetups.",
-                "amount": 15000,
+                "description": "Project Tech4Dev operates under a 100% WFH model. Despite this, we have found that in-person meetings are great for building trust as well as for brainstorming. We therefore choose to meet IRL a few times a year, and often invite local NGOs to join us so we can showcase our latest features and learn of their challenges. This will cover 6 city meetups.",
+                "amount": 19000,
                 "currency": "USD",
                 "frequency": "yearly",
                 "channels": ["axisbank"]
@@ -79,8 +79,8 @@
                 "guid": "ngo-visits",
                 "status": "active",
                 "name": "NGO Visits",
-                "description": "NGO visits are necessary to understand their challenges and needs from close quarters and will help us build technology solutions which address their concerns. This will cover 6 NGO visits.",
-                "amount": 5000,
+                "description": "NGO visits are necessary to understand their challenges and needs from close quarters and will help us build technology solutions which address their concerns. This will cover 12 NGO visits at one team-member per visit.",
+                "amount": 4400,
                 "currency": "USD",
                 "frequency": "yearly",
                 "channels": ["axisbank"]
